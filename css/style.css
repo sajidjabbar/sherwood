@@ -1,43 +1,230 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* Font Family */
+
+/* Universal Css Start Here */
+:root {
+  --first-color: #aec934;
+  --second-color: #222a41;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  color: #222a41;
+  font-size: 16px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: 400;
+}
+h5 {
+  font-size: 13px;
+  line-height: 23px;
+}
+a.btn {
+  background-color: #aec934;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+figure {
+  margin-bottom: 0;
+}
+
+/* Inner Pages Banner */
+/* .universal_banner {
+  padding: 55px 0;
+  background: #979797;
+}
+.universal_banner .contentDv {
+  text-align: center;
+}
+.universal_banner .contentDv h2.title {
+  font-size: 27px;
+  color: #ffffff;
+  line-height: 30px;
+}
+.universal_banner .contentDv p {
+  color: #fff;
+} */
+/* Inner Pages Banner */
+
+/* Universal Css End Here */
+
+/* Mobile Header Css Start Here */
+header .canvas_btn {
+  display: flex;
+  justify-content: end;
+  padding: 0 10px 0 0px;
+}
+.canvas_btn button.btn.btn-open {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  width: 25px;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 0 0 0;
+  cursor: pointer;
+}
+.canvas_btn button.btn.btn-open span.menu-line {
+  width: 35px;
+  height: 2px;
+  background: #fff;
+  margin: 3px 0;
+  display: block;
+}
+.canvas_btn button.btn.btn-open span.menu-line.line-2x {
+  width: 25px;
+}
+.mobile_header {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  background: #7aa540;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 30px;
+  transition: 0.8s;
+  transform: translateX(120%);
+  top: 0;
+  z-index: 99999;
+}
+.mobile_header.show {
+  transform: translateX(0%);
+}
+.mobile_header .cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile_header ul.mobile_menus {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mobile_header ul.mobile_menus li.menu_items {
+  margin: 10px 0;
+}
+.mobile_header ul.mobile_menus li.menu_items.menu_btn {
+  margin-top: 30px;
+}
+.mobile_header ul.mobile_menus li.menu_items a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+}
+/* .mobile_header ul.mobile_menus li.menu_items.menu_btn a {
+  background: #c98536;
+  padding: 13px 25px;
+  border-radius: 50px;
+} */
+.mobile_header ul.mobile_menus li.menu_items.cart_btn a span.count {
+  background: #c98536;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 9px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+}
+@media (max-width: 991px) {
+  header .canvas_btn button.btn.btn-open {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .mobile_header {
+    width: 40%;
+  }
+}
+@media (max-width: 575px) {
+  .mobile_header {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .mobile_header {
+    width: 65%;
+  }
+}
+/* Mobile Header Css Start Here */
+
 /* Prelaoder */
 #preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    overflow: hidden;
-    background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #aec934;
 }
-
 #preloader:before {
-    content: "";
-    position: fixed;
-    top: calc(50% - 30px);
-    left: calc(50% - 30px);
-    border: 6px solid #f2f2f2;
-    border-top: 6px solid #0068B4;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #f2f2f2;
+  border-top: 6px solid #708510;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
 }
-
 @-webkit-keyframes animate-preloader {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 @keyframes animate-preloader {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

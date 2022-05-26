@@ -1,5 +1,7 @@
-<footer class="footer">
+<!-- Footer Start Here -->
 
-</footer>
+<!-- Footer End Here -->
+
+<!-- Footer Links Include -->
 <?php include 'footerlinks.php';?>
-
+<!-- Footer Links Include -->

@@ -1,6 +1,11 @@
+<!-- App Include Here -->
 <?php include 'inc/app.php';?>
+<!-- App Include Here -->
 
-<!--  Start Here -->
-<!-- End Here -->
+<!-- Body Content Start Here -->
 
+<!-- Body Content End Here -->
+
+<!-- Footer Include Here -->
 <?php include 'inc/footer.php';?>
+<!-- Footer Include Here -->
