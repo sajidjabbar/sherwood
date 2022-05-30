@@ -1,8 +1,12 @@
 // Pre Loader Js
-$(window).on("load", function () {
-  console.log("test");
-  $("#preloader").fadeOut(1000);
+tl = gsap.timeline({
+  defaults: {
+    duration: 1,
+    ease: "expo.inOut",
+  },
 });
+
+tl.to(".slide-1", { width: 0 }).to("#introduction", { height: 0 });
 // Pre Loader Js
 
 // Mobile Header Js
@@ -35,46 +39,3 @@ $(window).on("scroll", function () {
 //   }
 // }
 // Menu Active Js
-
-// Go to Top Button Js On Scroll
-$(window).on("scroll", function () {
-  if ($(window).scrollTop() > 800) {
-    $(".go_to_top").addClass("active");
-  } else {
-    $(".go_to_top").removeClass("active");
-  }
-});
-// Go to Top Button Js On Scroll
-
-// Gallery Page Lighbox Js
-let link;
-let imageCount = 23;
-let regExDigit = /\d+/;
-
-function imageLink() {
-  let regExImage = /#image\d+/;
-  let image = location.href;
-
-  link = regExImage.exec(image)[0];
-  link = regExDigit.exec(link)[0];
-}
-
-let next = document.getElementById("next-lightbox");
-let prev = document.getElementById("prev-lightbox");
-
-next.addEventListener("click", (evt) => {
-  evt.preventDefault();
-  imageLink();
-  let newLink = Number(link) + 1;
-  if (newLink > imageCount) newLink = 1;
-  location.href = location.href.replace(regExDigit, newLink);
-});
-
-prev.addEventListener("click", (evt) => {
-  evt.preventDefault();
-  imageLink();
-  let newLink = Number(link) - 1;
-  if (newLink < 1) newLink = imageCount;
-  location.href = location.href.replace(regExDigit, newLink);
-});
-// Gallery Page Lighbox Js

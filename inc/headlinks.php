@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Site Title -->
-<title>DriverFit</title>
+<title>Sherwood</title>
 <!-- Site Title -->
 
 <!-- Favicon -->
@@ -19,6 +19,7 @@
 
 <!-- Slick Slider CDN -->
 <link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
 <!-- Slick Slider CDN -->
 
 <!-- Anime.js CDN -->
