@@ -4,6 +4,10 @@
   font-family: 'sf-text-pro';
   src: url('../fonts/sf-text-pro.ttf');
 }
+@font-face {
+  font-family: 'sf_pro_m';
+  src: url('../fonts/FontsFree-Net-SFProText-Medium-1.ttf');
+}
 /* Font Family */
 
 /* Universal Css Start Here */
@@ -348,6 +352,11 @@ header .canvas_btn {
   li.dropdown-item {
   margin: 0;
 }
+@media (max-width: 1399px) {
+  #headerTop .navbar_menus ul li a {
+    font-size: 12px;
+  }
+}
 @media (max-width: 1350px) {
   #headerTop .navbar_menus ul li {
     margin: 0 4px;
@@ -551,6 +560,7 @@ header .canvas_btn {
   z-index: -1;
 }
 .testimonials_sec .client_reviews .heading h3 {
+  font-size: 24px;
   color: #000000;
   padding-bottom: 10px;
 }
@@ -595,7 +605,7 @@ header .canvas_btn {
   border-radius: 50%;
   bottom: -12.5rem;
   top: unset;
-  right: -33.5rem;
+  right: -30.5rem;
   left: unset;
   transition: 0.6s;
 }
@@ -613,7 +623,7 @@ header .canvas_btn {
   border-radius: 50%;
   bottom: -12.5rem;
   top: unset;
-  left: -8rem;
+  left: -5rem;
   right: unset;
   transition: 0.6s;
 }
@@ -629,6 +639,11 @@ header .canvas_btn {
   box-shadow: 0px 0px 0px 2px #000;
   border-color: #fff;
 }
+@media(max-width:1399px){
+  .testimonials_sec button.slick-prev.slick-arrow:before{
+    right: -24.5rem;
+  }
+}
 @media (max-width: 1250px) {
   .testimonials_sec button.slick-next.slick-arrow:before {
     left: -80px;
@@ -637,6 +652,17 @@ header .canvas_btn {
     right: -24.5rem;
   }
 }
+@media (max-width: 1199px){
+  .testimonials_sec button.slick-prev.slick-arrow:before {
+    right: -18.5rem;
+}
+@media(max-width:1100px){
+  .testimonials_sec button.slick-next.slick-arrow:before{
+    bottom: -11rem;
+  }
+}
+}
+
 @media (max-width: 1100px) {
   .testimonials_sec .client_reviews {
     padding: 40px 10px 70px 80px;
@@ -752,8 +778,9 @@ footer .footer-content ul.footer-link li a {
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-transform: uppercase;
+  font-family: 'sf_pro_m';
 }
 footer .footer-content ul.footer-link li {
   margin: 13px 0;
@@ -765,6 +792,7 @@ footer .footer-content ul.info {
 footer .footer-content ul.info li {
   margin: 6px 0;
   text-transform: uppercase;
+  font-size: 14px;
 }
 footer .footer-content ul.info li a {
   color: #fff;

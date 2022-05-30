@@ -4,6 +4,30 @@
 
 <!-- Body Content Start Here -->
 
+<style>
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
+
 <!-- Banner Sec Start Here -->
 <section class="banner_sec">
     <div class="container-fluid p-0">
@@ -35,7 +59,7 @@
             <div class="col-lg-6">
                 <div class="about_content">
                     <div class="title wow animate__animated animate__slideInLeft">
-                        <h3>About Us</h3>
+                        <h3 class="ml2">About</h3>
                     </div>
                     <div class="description wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <p>
@@ -54,8 +78,9 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="img_box wow animate__animated animate__slideInRight">
-                    <figure><img src="img/abt-pic.png" class="img-fluid"></figure>
+                <div class="img_box ">
+                    <figure><img src="img/abt-pic.png" class="img-fluid wow animate__animated animate__fadeInLeft">
+                    </figure>
                 </div>
             </div>
         </div>
@@ -151,13 +176,16 @@
         <div class="row align-items-center">
             <div class="col-lg-6 p-0">
                 <div class="testi-image wow animate__animated animate__fadeInLeft">
-                    <figure><img src="img/testi.png" class="img-fluid"></figure>
+                    <figure><img src="img/testi.png" class="img-fluid wow animate__animated animate__fadeInLeft"></figure>
                 </div>
             </div>
             <div class="col-lg-6 p-0">
                 <div class="client_reviews">
                     <div class="heading">
-                        <h3>Client Reviews</h3>
+                        <h3 class="ml15">
+                            <span class="word">Client</span>
+                            <span class="word">Reviews</span>
+                        </h3>
                     </div>
                     <div class="testimonials_slider">
                         <div class="testimonial_box">
