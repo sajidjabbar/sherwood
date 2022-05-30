@@ -1,6 +1,9 @@
 /* Font Family */
 @import url("https://fonts.cdnfonts.com/css/sf-pro-display");
-@import url("https://db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text");
+@font-face {
+  font-family: 'sf-text-pro';
+  src: url('../fonts/sf-text-pro.ttf');
+}
 /* Font Family */
 
 /* Universal Css Start Here */
@@ -12,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "SF Pro Text";
+  font-family: "sf-text-pro";
 }
 h2,
 h3,
@@ -215,7 +218,7 @@ header .canvas_btn {
   padding: 0;
   background: transparent;
   border: 0;
-  font-family: "sf pro text";
+  font-family: "sf-text-pro";
   outline: none;
   box-shadow: none;
   font-size: 14px;
@@ -229,7 +232,7 @@ header .canvas_btn {
 #headerTop .navbar_menus ul li a {
   text-decoration: none;
   color: var(--second-color);
-  font-family: "sf pro text";
+  font-family: 'sf-text-pro';
   font-size: 14px;
 }
 #headerTop .navbar_menus ul li .dropdown ul.dropdown-menu li a {
