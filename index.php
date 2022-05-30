@@ -59,7 +59,7 @@
             <div class="col-lg-6">
                 <div class="about_content">
                     <div class="title wow animate__animated animate__slideInLeft">
-                        <h3 class="ml2">About</h3>
+                        <h3 class="ml2">About Us</h3>
                     </div>
                     <div class="description wow animate__animated animate__fadeInLeft animate__delay-1s">
                         <p>
