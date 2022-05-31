@@ -92,7 +92,7 @@
 <section class="services_sec">
     <div class="container-fluid p-0">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 m-0 p-0">
                 <div class="serive_box">
                     <div class="service-img wow animate__animated animate__zoomIn">
                         <figure><img src="img/service1.png" class="img-fluid"></figure>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 p-0 m-0">
                 <div class="serive_box">
                     <div class="service-img wow animate__animated animate__zoomIn">
                         <figure><img src="img/service3.png" class="img-fluid"></figure>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 p-0 m-0">
                 <div class="serive_box">
                     <div class="service-img wow animate__animated animate__zoomIn">
                         <figure><img src="img/service5.png" class="img-fluid"></figure>

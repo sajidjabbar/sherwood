@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 p-0 m-0">
                 <div class="logoDv">
                     <figure><img src="img/ft-logo.png" class="img-fluid"></figure>
                 </div>
@@ -33,7 +33,7 @@
                     <a href="#" class="btn-sherwood">Proof Claims</a>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-5 p-0 m-0">
                 <div class="footer-content scnd-content">
                     <div class="head">
                         <h4>Quick links</h4>
@@ -48,16 +48,21 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3 p-0 m-0">
                 <div class="footer-content">
                     <div class="head">
                         <h4>CONTACT US</h4>
                     </div>
                     <ul class="info">
+<!--                        <li>-->
+<!--                            SHERWOOD PARTNERS INC<br />-->
+<!--                            SILICON VALLEY | LOS ANGELES | NEW YORK<br />-->
+<!--                            3945 FREEDOM CIRCLE SUITE 560 SANTA CLARA, CA 95054-->
+<!--                        </li>-->
                         <li>
-                            SHERWOOD PARTNERS INC<br />
-                            SILICON VALLEY | LOS ANGELES | NEW YORK<br />
-                            3945 FREEDOM CIRCLE SUITE 560 SANTA CLARA, CA 95054
+                            SHERWOOD PARTNERS INC </li>
+                          <li> SILICON VALLEY | LOS ANGELES | NEW YORK </li>
+                        <li>3945 FREEDOM CIRCLE SUITE 560 SANTA CLARA, CA 95054
                         </li>
                         <li><a href="tel:650-454-8001">PHONE : 650-454-8001</a></li>
                         <li><a href="#">FAX : 650-454-8040</a></li>

@@ -446,7 +446,11 @@ header .canvas_btn {
 
 /* About Css Start Here */
 .about_sec {
-  background: var(--first-color);
+  background-image: url("../img/about-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background: var(--first-color); */
   border-top: 15px solid var(--second-color);
   color: var(--second-color);
 }
@@ -474,6 +478,7 @@ header .canvas_btn {
 /* Services Sec Css Start Here */
 .services_sec {
   overflow-x: hidden;
+  margin-top: 13px;
 }
 .services_sec .serive_box {
   border: 1px solid #ddd;
@@ -773,14 +778,16 @@ footer .footer-content .head h4 {
 footer .footer-content ul.footer-link {
   padding: 0;
   list-style: none;
+  margin-top: 26px;
 }
 footer .footer-content ul.footer-link li a {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
-  /* font-weight: 600; */
+  font-weight: 500;
   text-transform: uppercase;
   font-family: 'sf_pro_m';
+  text-shadow: 0 0 black;
 }
 footer .footer-content ul.footer-link li {
   margin: 13px 0;
@@ -788,11 +795,14 @@ footer .footer-content ul.footer-link li {
 footer .footer-content ul.info {
   padding: 0;
   list-style: none;
+  margin-top: 26px;
 }
 footer .footer-content ul.info li {
   margin: 6px 0;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
 }
 footer .footer-content ul.info li a {
   color: #fff;
