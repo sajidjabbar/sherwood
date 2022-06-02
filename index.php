@@ -16,15 +16,15 @@
 }
 
 .ml15 {
-  font-weight: 800;
-  font-size: 3.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
 }
 
 .ml15 .word {
-  display: inline-block;
-  line-height: 1em;
+    display: inline-block;
+    line-height: 1em;
 }
 </style>
 
@@ -41,8 +41,7 @@
             <h5 class="wow animate__animated animate__fadeInDown animate__delay-3s">THE GO TO FIRM….THE GOLD STANDARD
             </h5>
             <p class="wow animate__animated animate__fadeInDown animate__delay-4s">
-                Since 1992 SHERWOOD PARTNERS has become one of the<br />
-                premier business advisory firms in the country today
+                GET SHERWOOD! , the Industry Standard Since 1992
             </p>
             <div class="button-group wow animate__animated animate__fadeInDown animate__delay-5s">
                 <a href="#" class="lnk-btn">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -176,7 +175,8 @@
         <div class="row align-items-center">
             <div class="col-lg-6 p-0">
                 <div class="testi-image wow animate__animated animate__fadeInLeft">
-                    <figure><img src="img/testi.png" class="img-fluid wow animate__animated animate__fadeInLeft"></figure>
+                    <figure><img src="img/testi.png" class="img-fluid wow animate__animated animate__fadeInLeft">
+                    </figure>
                 </div>
             </div>
             <div class="col-lg-6 p-0">
