@@ -38,11 +38,11 @@
     <div class="banner_content">
         <div class="container">
             <h2 class="title wow animate__animated animate__fadeInDown animate__delay-2s">Sherwood</h2>
-            <h5 class="wow animate__animated animate__fadeInDown animate__delay-3s">THE GO TO FIRM….THE GOLD STANDARD
+            <h5 class="wow animate__animated animate__fadeInDown animate__delay-3s">THE GOLD STANDARD...Since 1992
             </h5>
-            <p class="wow animate__animated animate__fadeInDown animate__delay-4s">
-                GET SHERWOOD! , the Industry Standard Since 1992
-            </p>
+<!--            <p class="wow animate__animated animate__fadeInDown animate__delay-4s">-->
+<!--                GET SHERWOOD! , the Industry Standard Since 1992-->
+<!--            </p>-->
             <div class="button-group wow animate__animated animate__fadeInDown animate__delay-5s">
                 <a href="#" class="lnk-btn">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
